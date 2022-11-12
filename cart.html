@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo-f.png">
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+
+<header class="header">
+
+    <a href="home.html" class="logo"><img src="images/logo.png" alt="" class="img-logo-header"></a>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Rechercher">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <!-- this menu -->
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!-- this search -->
+        <div id="search-btn" class="fas fa-search"></div>
+        <!-- this acc user -->
+        <a href="login.html" class="fas fa-user"></a>
+        <!-- this is favoris -->
+        <a href="#" class="fas fa-heart"></a>
+        <!-- this shopping-card -->
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+        <!-- this drop shopping-card -->
+        <a href="##" class="fas fa-caret-down" id="cart-btn"></a>
+    </div>
+
+        <!-- START shopping card -->
+
+
+<div class="shopping-cart"  >
+    <!-- ===========================================nouveau code================================== -->
+    <section class="container content-section">
+        <h2 class="section-header" style="font-size:25px; text-align: center; margin-bottom:20px;">PANIER</h2>
+        <!-- <div class="cart-row">
+            <span class="cart-item cart-header cart-column" style="font-size: 15px; margin-right: 23%;">Produit</span>
+            <span class="cart-price cart-header cart-column" style="font-size: 15px; margin-right: 10%;">Prix</span>
+            <span class="cart-quantity cart-header cart-column" style="font-size: 15px; margin-right: 0%;">Quantity</span>
+        </div> -->
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <div style="font-size: 2rem;"><b>__________________</b></div><br><br>
+            <strong class="cart-total-title" style="font-size: 20px; margin-top: 50px;">Total: </strong>
+            <span class="cart-total-price" style="font-size:20px; font-weight: bold; margin-left: 17px;">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button" style="margin-left: 40px;">aller au panier </button>
+    </section>
+        <!-- ===========================================nouveau code================================== -->
+<!-- div de shopping cart -->
+</div> 
+<!-- end shoping cards -->
+
+</header>
+
+<!-- header section ends -->
+
+<!-- side-bar section starts -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+
+    <div class="user">
+        <img src="images/avatar.jpg" alt="">
+        <h3>Zakaria Kharroub</h3>
+        <a href="#">se deconnecter</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
+        <a href="products.html"> <i class="fas fa-angle-right"></i> products </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
+        <a href="register.html"> <i class="fas fa-angle-right"></i> register </a>
+        <a href="cart.html"> <i class="fas fa-angle-right"></i> cart </a>
+    </nav>
+
+</div>
+
+<!-- side-bar section ends -->
+
+
+<!-- shopping cart section starts  -->
+
+<section class="shopping-cart">
+
+    <h1 class="heading">Vos <span>Produits</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/essenssielle/1.png" alt="">
+            <div class="content">
+                <h3>huile cacaow</h3>
+                <form action="">
+                    <span>Quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$49.99 <span>$79.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/essenssielle/1.png" alt="">
+            <div class="content">
+                <h3>huile cacaow</h3>
+                <form action="">
+                    <span>Quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$49.99 <span>$79.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/essenssielle/1.png" alt="">
+            <div class="content">
+                <h3>huile cacaow</h3>
+                <form action="">
+                    <span>Quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$49.99 <span>$79.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/essenssielle/1.png" alt="">
+            <div class="content">
+                <h3>huile cacaow</h3>
+                <form action="">
+                    <span>Quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$49.99 <span>$79.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/essenssielle/1.png" alt="">
+            <div class="content">
+                <h3>huile cacaow</h3>
+                <form action="">
+                    <span>Quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$49.99 <span>$79.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/essenssielle/1.png" alt="">
+            <div class="content">
+                <h3>huile cacaow</h3>
+                <form action="">
+                    <span>Quantité : </span>
+                    <input type="number" name="" value="1" id="">
+                </form>
+                <div class="price">$49.99 <span>$79.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cart-total">
+        <h3> total des prix : <span>$400.00</span> </h3>
+        <h3> livraison : <span>+$25.00</span> </h3>
+        <h3> Total : <span>$425.00</span> </h3>
+        <a href="#" class="btn">passer la comande</a>
+    </div>
+
+</section>
+
+<!-- shopping cart section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="quick-links">
+
+    <a href="home.html" class="logo"><img src="images/logo-f.png" alt="" class="img-logo-footer"></a>
+
+
+    <div class="links">
+        <a href="home.html"> home </a>
+        <a href="about.html"> about </a>
+        <a href="products.html"> products </a>
+        <a href="contact.html"> contact </a>
+        <a href="login.html"> login </a>
+        <a href="register.html"> register </a>
+        <a href="cart.html"> cart </a>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+</section>
+
+<section class="credit">
+
+    <p> created by <span>Zakaria kh</span>  </p>
+
+    <img src="images/card_img.png" alt="">
+
+</section>
+<!-- footer section ends -->
+
+
+
+
+<!-- swiper js link      -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

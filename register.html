@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo-f.png">
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+
+<header class="header">
+
+    <a href="home.html" class="logo"><img src="images/logo.png" alt="" class="img-logo-header"></a>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Rechercher">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <!-- this menu -->
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!-- this search -->
+        <div id="search-btn" class="fas fa-search"></div>
+        <!-- this acc user -->
+        <a href="login.html" class="fas fa-user"></a>
+        <!-- this is favoris -->
+        <a href="#" class="fas fa-heart"></a>
+        <!-- this shopping-card -->
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+        <!-- this drop shopping-card -->
+        <a href="##" class="fas fa-caret-down" id="cart-btn"></a>
+    </div>
+
+
+    <!-- START shopping card -->
+
+
+<div class="shopping-cart"  >
+    <!-- ===========================================nouveau code================================== -->
+    <section class="container content-section">
+        <h2 class="section-header" style="font-size:25px; text-align: center; margin-bottom:20px;">PANIER</h2>
+        <!-- <div class="cart-row">
+            <span class="cart-item cart-header cart-column" style="font-size: 15px; margin-right: 23%;">Produit</span>
+            <span class="cart-price cart-header cart-column" style="font-size: 15px; margin-right: 10%;">Prix</span>
+            <span class="cart-quantity cart-header cart-column" style="font-size: 15px; margin-right: 0%;">Quantity</span>
+        </div> -->
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <div style="font-size: 2rem;"><b>__________________</b></div><br><br>
+            <strong class="cart-total-title" style="font-size: 20px; margin-top: 50px;">Total: </strong>
+            <span class="cart-total-price" style="font-size:20px; font-weight: bold; margin-left: 17px;">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button" style="margin-left: 40px;">aller au panier </button>
+    </section>
+        <!-- ===========================================nouveau code================================== -->
+<!-- div de shopping cart -->
+</div> 
+<!-- end shoping cards -->
+
+</header>
+
+<!-- header section ends -->
+
+<!-- side-bar section starts -->
+
+<div class="side-bar">
+
+    <div id="close-side-bar" class="fas fa-times"></div>
+
+    <div class="user">
+        <img src="images/avatar.jpg" alt="">
+        <h3>Zakaria Kharroub</h3>
+        <a href="#">se deconnecter</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
+        <a href="products.html"> <i class="fas fa-angle-right"></i> products </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
+        <a href="register.html"> <i class="fas fa-angle-right"></i> register </a>
+        <a href="cart.html"> <i class="fas fa-angle-right"></i> cart </a>
+    </nav>
+
+</div>
+
+<!-- side-bar section ends -->
+
+
+<!-- side-bar section ends -->
+
+<!-- register form section starts  -->
+
+<section class="register">
+
+    <form action="" id="form">
+
+        <h3>inscrivez maintenant</h3>
+
+        <div  class="form-control">
+            <input type="text" name="" placeholder="entrer le Nom d'utilisateur" id="username" class="box">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small style="font-size:12px ;">Error message</small>
+        </div>
+        
+        
+        
+        
+
+
+        <div class="form-control">
+            <input type="email" name="" placeholder="entrer email" id="email" class="box">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small style="font-size:12px ;">Error message</small>
+
+        </div>
+        
+        
+        <div class="form-control">
+            <input type="password" name="" placeholder="entrer le mot de pass" id="password" class="box">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small style="font-size:12px ;">Error message</small>
+
+           
+        </div>
+       
+        <div class="form-control">
+            <input type="password" name="" placeholder="Confirmer le mot de pass" id="password2" class="box">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small style="font-size:12px ;">Error message</small>
+
+        </div>
+        
+        <button type="submit" class="btn">Soumettre</button>
+       
+        <p>avez vous a compte ?</p>
+       
+        <a href="login.html" class="btn link">Se connecter</a>
+    </form>
+
+</section>
+
+
+
+
+
+
+
+<!-- register form section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="quick-links">
+
+    <a href="home.html" class="logo"><img src="images/logo-f.png" alt="" class="img-logo-footer"></a>
+
+
+    <div class="links">
+        <a href="home.html"> home </a>
+        <a href="about.html"> about </a>
+        <a href="products.html"> products </a>
+        <a href="contact.html"> contact </a>
+        <a href="login.html"> login </a>
+        <a href="register.html"> register </a>
+        <a href="cart.html"> cart </a>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+</section>
+
+<section class="credit">
+
+    <p> created by <span>Zakaria kh</span>  </p>
+
+    <img src="images/card_img.png" alt="">
+
+</section>
+<!-- footer section ends -->
+
+
+
+<!-- swiper js link      -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
